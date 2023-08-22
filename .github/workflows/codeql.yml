@@ -48,7 +48,7 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         # standard packs, extensions, and extra packs
-        config-file: advanced-security/codeql-queries/config/codeql.yml@main
+        config-file: advanced-security/codeql-queries/config/codeql-super-extended.yml@super-extended
 
 
     # Autobuild attempts to build any compiled languages  (C/C++, C#, Go, or Java). 
